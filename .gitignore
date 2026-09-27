@@ -1,0 +1,9 @@
+.env
+debate_club.db
+debate_club.db-*
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.patch
+debatefix*

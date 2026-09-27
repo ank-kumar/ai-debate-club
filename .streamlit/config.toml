@@ -1,0 +1,13 @@
+[server]
+# Bind to this machine only; each debate spends Bedrock credits
+address = "127.0.0.1"
+headless = true
+# Streamlit's watcher force-imports every transformers module (noisy and slow)
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Hide developer menu items such as the Deploy button
+toolbarMode = "minimal"
