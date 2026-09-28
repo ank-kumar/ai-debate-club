@@ -5,6 +5,16 @@ themselves, and cite their own evidence. Two independent auditors fact-check the
 judge decides. Built with LangGraph on Amazon Bedrock, with local HuggingFace models and
 SQLite memory. Every motion is debated; there is no refusal stage.
 
+## Screenshots
+
+**Homepage**
+
+![Homepage](docs/screenshots/homepage.png)
+
+**A full debate**
+
+![A full debate](docs/screenshots/full-debate.png)
+
 ## Pipeline
 
 1. **Intent**: the input is spelling-corrected and searched once on Tavily as a single
